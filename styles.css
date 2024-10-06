@@ -1,0 +1,67 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    backdrop-filter: blur(15px); 
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.song-parts:hover {
+    background-color: #000000d8;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#buttons {
+    gap: 20px;
+}
+
+#poster {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 500px;
+    margin-right: 100px;
+    z-index: 1; 
+    filter: none; 
+    border-radius: 20px;
+    margin-top: 50px; 
+}
+
+#buttons h3 {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    padding: 15px;
+    font-weight: 400;
+    color: white;
+}
+
+#buttons h3:active {
+    scale: 0.9;
+    cursor: pointer;
+}
+
+#buttons {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.songs-list {
+    position: relative;
+    z-index: 2; 
+    background-color: rgba(255, 255, 255, 0.1); 
+}
